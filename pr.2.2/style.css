@@ -1,0 +1,114 @@
+header{
+    font-size: larger;
+}
+body {
+    padding-top: 56px; /* Отступ для фиксированной навигации */
+}
+
+body{
+    background-color: #FFDEE8;
+}
+
+.pop {
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.par {
+    font-size: 30px;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+title {
+    font-size: 50px;
+}
+
+
+
+.card-img-top {
+    height: 150px; /* фиксированная высота для изображений */
+    object-fit: cover; /* обрезка изображений по размеру */
+}
+
+.container-fluid{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card-body {
+    min-height: 100px;
+}
+
+.card-text {
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+section {
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 200px;
+}
+
+.plp{
+    height: 200px;
+    width: 200px;
+}
+
+.container{
+    left: 50%;
+
+}
+
+.auth-section {
+    background: linear-gradient(135deg, #a582ff, #d3a1f0);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    /* max-width: 400px; */
+    width: 100%;
+}
+
+.auth-card h3 {
+    font-weight: bold;
+    color: #6c63ff;
+}
+
+.auth-card .form-control {
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.auth-card .btn-primary {
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.auth-card .btn-primary:hover {
+    background-color: #5148c2;
+}
+
